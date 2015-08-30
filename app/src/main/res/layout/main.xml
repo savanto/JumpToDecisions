@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ViewAnimator xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/view_switcher"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+<!-- Enter choices -->
+    <LinearLayout style="@style/ContentScreen">
+        <TextView style="@style/Text"
+            android:text="@string/intro"
+            />
+        <EditText style="@style/Input"
+            android:id="@+id/input_choice1"
+            android:hint="@string/hint_choice1"
+            />
+        <EditText style="@style/Input"
+            android:id="@+id/input_choice2"
+            android:hint="@string/hint_choice2"
+            />
+        <Button style="@style/Button"
+            android:text="@string/btn_start"
+            android:onClick="start"
+            />
+    </LinearLayout>
+<!-- Present choices -->
+    <LinearLayout style="@style/ContentScreen"
+        android:orientation="horizontal"
+        >
+        <Button style="@style/Button.Choice"
+            android:id="@+id/btn_choice1"
+            android:onClick="pickChoice1"
+            />
+        <TextView style="@style/Text"
+            android:text="@string/or"
+            />
+        <Button style="@style/Button.Choice"
+            android:id="@+id/btn_choice2"
+            android:onClick="pickChoice2"
+            />
+    </LinearLayout>
+<!-- Conclusion -->
+    <LinearLayout style="@style/ContentScreen">
+        <TextView style="@style/Text"
+            android:text="@string/conclusion"
+            />
+        <TextView style="@style/Text"
+            android:id="@+id/final_choice"
+            android:textSize="24sp"
+            />
+        <Button style="@style/Button"
+            android:id="@+id/btn_share"
+            android:text="@string/btn_share"
+            android:onClick="share"
+            />
+        <Button style="@style/Button"
+            android:id="@+id/btn_restart"
+            android:text="@string/btn_restart"
+            android:onClick="startOver"
+            />
+    </LinearLayout>
+</ViewAnimator>

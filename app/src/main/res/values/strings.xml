@@ -1,3 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Jump To Decisions</string>
+    <string name="hint_choice1">Choice one</string>
+    <string name="hint_choice2">Choice two</string>
+    <string name="btn_start">Start</string>
+    <string name="btn_restart">Start over</string>
+    <string name="btn_share">Share</string>
+
+    <string name="intro">Explanation</string>
+    <string name="or">or</string>
+    <string name="conclusion">Congratulations! You have chosen</string>
+
+    <string name="error_input">You have nothing to choose from!</string>
 </resources>

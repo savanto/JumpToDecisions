@@ -3,5 +3,20 @@
     <string-array name="nouns">
         <item>Octopus</item>
         <item>Watermelon</item>
+        <item>Tangerine</item>
+        <item>Shark</item>
+        <item>Whale</item>
+        <item>Lamp</item>
+        <item>Desk</item>
+        <item>Coffee</item>
+        <item>Tea</item>
+        <item>Wine</item>
+        <item>Beer</item>
+        <item>Earth</item>
+        <item>Sky</item>
+        <item>Sun</item>
+        <item>Moon</item>
+        <item>Cat</item>
+        <item>Mouse</item>
     </string-array>
 </resources>
