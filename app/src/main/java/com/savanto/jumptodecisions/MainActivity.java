@@ -2,6 +2,7 @@ package com.savanto.jumptodecisions;
 
 import android.app.Activity;
 import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.view.inputmethod.InputMethodManager;
@@ -131,8 +132,18 @@ public class MainActivity extends Activity {
      * @param v The clicked view.
      */
     public void share(View v) {
-        // TODO -- open sharing dialog with choice made.
-        Toast.makeText(this, "Share!", Toast.LENGTH_SHORT).show();
+        this.startActivity(Intent.createChooser(
+                new Intent(Intent.ACTION_SEND)
+                    .putExtra(Intent.EXTRA_SUBJECT, String.format(
+                            this.getString(R.string.share_subject),
+                            this.inputChoice1.getText().toString(),
+                            this.inputChoice2.getText().toString()
+                    )).putExtra(Intent.EXTRA_TEXT, String.format(
+                            this.getString(R.string.share_text),
+                            this.finalChoice.getText().toString()
+                    )).setType("text/plain"),
+                this.getString(R.string.share_chooser)
+        ));
     }
 
     /**

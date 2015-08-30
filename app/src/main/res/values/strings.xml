@@ -6,8 +6,15 @@
     <string name="btn_start">Start</string>
     <string name="btn_restart">Start over</string>
     <string name="btn_share">Share</string>
+    <string name="share_chooser">@string/btn_share</string>
+    <string name="share_subject">\"%1$s\" or \"%2$s\"?</string>
+    <string name="share_text">Jump to Decisions helped me choose %s!</string>
 
-    <string name="intro">Explanation</string>
+    <string name="intro">Welcome to Jump to Decisions! Please enter two options for the decision you need to make.</string>
+    <string name="instructions">
+        You will be presented with a series of unrelated choices.
+        Make gut decisions as fast as possible.
+    </string>
     <string name="or">or</string>
     <string name="conclusion">Congratulations! You have chosen</string>
 

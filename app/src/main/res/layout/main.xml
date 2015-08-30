@@ -7,6 +7,7 @@
 <!-- Enter choices -->
     <LinearLayout style="@style/ContentScreen">
         <TextView style="@style/Text"
+            android:layout_marginBottom="10dp"
             android:text="@string/intro"
             />
         <EditText style="@style/Input"
@@ -16,6 +17,11 @@
         <EditText style="@style/Input"
             android:id="@+id/input_choice2"
             android:hint="@string/hint_choice2"
+            />
+        <TextView style="@style/Text"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="@string/instructions"
             />
         <Button style="@style/Button"
             android:text="@string/btn_start"
