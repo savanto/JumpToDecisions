@@ -20,3 +20,33 @@
         <item>Mouse</item>
     </string-array>
 </resources>
+
+<resources>
+    <string-array name="fruits">
+        <item>Apples</item>
+        <item>Apricots</item>
+        <item>Banana</item>
+        <item>Cantaloupe</item>
+        <item>Cherries</item>
+        <item>Clementines</item>
+        <item>Date Palm</item>
+        <item>Grapefruit</item>
+        <item>Green Grapes</item>
+        <item>Honeydew Melon</item>
+        <item>Lemons</item>
+        <item>Limes</item>
+        <item>Mandarin Orange</item>
+        <item>Mangos</item>
+        <item>Oranges</item>
+        <item>Papayas</item>
+        <item>Peaches</item>
+        <item>Pears</item>
+        <item>Pineapple</item>
+        <item>Plantain</item>
+        <item>Plums</item>
+        <item>Pomelo</item>
+        <item>Red Grapes</item>
+        <item>Tangerine</item>
+        <item>Watermelon</item>
+    </string-array>
+</resources>
